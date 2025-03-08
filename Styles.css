@@ -1,0 +1,193 @@
+.head{
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.Git{
+    width: 33px;
+}
+.Ln{
+    width: 25px;
+}
+.Ins{
+    width: 45px;
+}
+.id{
+    width: auto;
+    display: inline-block;
+}
+.New{
+    width:100%;
+  overflow:auto;
+  width:50%;  
+  float:left;
+}
+.Pro{
+    float: right;
+}
+.clear-line {
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background-color: white;
+}
+.clear-line2 {
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background-color: rgb(242, 72, 72);
+}
+.Emline{
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 0.5px;
+}
+
+.img{
+    padding: 20px;
+    border-radius: 15%;
+}
+.Slide {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+}
+.Logo {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Slide {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+.Slide img {
+    height: 30px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+.Left {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.Slide2 {
+    display: flex;
+    gap: 20px; /* Adjust spacing */
+    width: max-content;
+    animation: scrollRight 10s linear infinite; /* Move Right */
+}
+
+.Slide2 img {
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevents resizing */
+}
+
+/* Move from left to right instead of right to left */
+@keyframes scrollRight {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.npl{
+    padding: 20px;
+}
+.Pp{
+    width: 50% ;
+}
+.Pr{
+    padding-left: 30px;
+}
+
+#no{
+    float: right;
+}
+#no1{
+    float: left;
+}
+
+.Certfi {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+}
+.Certifications {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Certfi {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+.Certfi img {
+    height: 220px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.Left2 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.Slide3 {
+    display: flex;
+    gap: 20px; /* Adjust spacing */
+    width: max-content;
+    animation: scrollRight 10s linear infinite; /* Move Right */
+}
+
+.Slide3 img {
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevents resizing */
+}
+
+/* Move from left to right instead of right to left */
+@keyframes scrollRight {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.About{
+    padding: 30px;
+}
+.Con{
+    padding: 30px;
+    color: aliceblue;
+}
+.Thank{
+    text-align: center;
+}
+.clear-line3{
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background-color: rgb(128, 241, 7);
+}

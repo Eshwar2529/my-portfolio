@@ -1,0 +1,532 @@
+.head{
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.Git{
+    width: 33px;
+}
+.Ln{
+    width: 25px;
+}
+.Ins{
+    width: 45px;
+}
+.id{
+    width: auto;
+    display: inline-block;
+}
+.New{
+    width:100%;
+  overflow:auto;
+  width:50%;  
+  float:left;
+}
+.Pro{
+    float: right;
+    border: beige 2px solid;
+    border-radius: 30px;
+    box-shadow: rgb(22, 102, 114) 5px 5px 5px;
+}
+.clear-line {
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background-color: white;
+}
+.clear-line2 {
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background-color: rgb(242, 72, 72);
+}
+.Emline{
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 0.5px;
+}
+
+.img{
+    padding: 0px;
+    border-radius: 15%;
+}
+.Slide {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+}
+.Logo {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Slide {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+.Slide img {
+    height: 30px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+.Left {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.Slide2 {
+    display: flex;
+    gap: 20px; /* Adjust spacing */
+    width: max-content;
+    animation: scrollRight 10s linear infinite; /* Move Right */
+}
+
+.Slide2 img {
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevents resizing */
+}
+
+/* Move from left to right instead of right to left */
+@keyframes scrollRight {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.npl{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+.npl2{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #a1dbb2;
+}
+.npl3{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #b4eeeb;
+}
+#no{
+    float: right;
+}
+#no1{
+    float: left;
+}
+
+.Certfi {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+}
+.Certifications {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Certfi {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+.Certfi img {
+    height: 220px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.About{
+    padding: 30px;
+}
+.Con{
+    padding: 30px;
+    color: aliceblue;
+}
+.Thank{
+    text-align: center;
+}
+.clear-line3{
+    clear: both;  /* Ensures the line appears after floated elements */
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background-color: rgb(129, 124, 54);
+}
+.Footer{
+    font-size: x-small;
+    text-align: center;
+}
+.Slide, .Slide2, .Slide3 {
+    animation-play-state: paused;
+}
+
+
+
+
+
+.project-container {
+    position: relative;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(27, 200, 160);
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    background: #444;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.project-details {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.project-container:hover .project-details,
+.project-container.active .project-details {
+    max-height: 600px; /* Adjust based on content */
+    opacity: 1;
+    padding: 10px;
+}
+
+
+.det{
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.genie-box {
+    opacity: 0;
+    transform-origin: top center;
+    transform: scaleY(0) translateY(-50px);
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.genie-box.show {
+    opacity: 1;
+    transform: scaleY(1) translateY(0);
+}
+
+.Proh{
+    text-align: center;
+}
+
+
+
+/* Communication Section - Hidden Initially */
+.communication-envelope {
+    position: relative;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    overflow: hidden;
+    opacity: 0;  /* Hidden initially */
+    transform: translateX(-50%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* When visible, the section moves into position */
+.communication-envelope.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Communication List Styling */
+.communication-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual List Item Animation (Initially Hidden) */
+.comm-item {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Delayed Animations for Sequential Effect */
+.comm-item:nth-child(1) { transition-delay: 0.2s; }
+.comm-item:nth-child(2) { transition-delay: 0.5s; }
+.comm-item:nth-child(3) { transition-delay: 0.8s; }
+
+/* When section is visible, items slide in from left to right */
+.communication-envelope.show .comm-item {
+    opacity: 1;
+    transform: translateX(0);
+}
+.communication-envelope:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgb(251, 251, 251);
+}
+
+
+.npl2{
+    
+    text-align: center;
+}
+
+
+/* Text elements hidden initially */
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+/* Delayed animation for sequential appearance */
+.fade-in-left:nth-child(1) { transition-delay: 0.2s; }
+.fade-in-left:nth-child(2) { transition-delay: 0.4s; }
+.fade-in-left:nth-child(3) { transition-delay: 0.6s; }
+.fade-in-left:nth-child(4) { transition-delay: 0.8s; }
+.fade-in-left:nth-child(5) { transition-delay: 1s; }
+
+/* When element is visible, slide in from left to right */
+.fade-in-left.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+/* Communication Section - Hidden Initially */
+.skills-envelope {
+    position: relative;
+    width: 60%;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    overflow: hidden;
+    opacity: 0;  /* Hidden initially */
+    transform: translateX(-50%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* When visible, the section moves into position */
+.skills-envelope.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Communication List Styling */
+.skills-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Individual List Item Animation (Initially Hidden) */
+.skill-item {
+    opacity: 0;
+    font-family: "Caveat", cursive;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    transform: translateX(-50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Delayed Animations for Sequential Effect */
+.skill-item:nth-child(1) { transition-delay: 0.2s; }
+.skill-item:nth-child(2) { transition-delay: 0.5s; }
+.skill-item:nth-child(3) { transition-delay: 0.8s; }
+
+/* When section is visible, items slide in from left to right */
+.skills-envelope.show .skill-item {
+    opacity: 1;
+    transform: translateX(0);
+}
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(13, 13, 14, 0.6);
+}
+
+.Cot{
+    text-align: center;
+}
+
+
+
+
+/* New Education Section */
+.education-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.edu-title {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #adcad9;
+}
+
+/* Grid Layout */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Card Design */
+.education-card {
+    background: linear-gradient(135deg, #1e1e1e, #333);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(72, 184, 242, 0.4);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(72, 184, 242, 0.6);
+}
+
+/* Logos */
+.edu-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Education Section - Initially Hidden */
+.education-container {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* When the section becomes visible */
+.education-container.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.Certfi {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    width: max-content;
+    animation: scrollRight 20s linear infinite;
+    animation-play-state: running;
+}
+.star{
+    color: #ea3c11;
+}
+
+.designed-line {
+    height: 2px;
+    background: linear-gradient(to right, #000000, #f9f6f5);
+    border: none;
+}
+.designed-line2 {
+    height: 2px;
+    background: linear-gradient(to right, #fcfbfb, #080808);
+    border: none;
+    clear: both;
+}
+
+
+.animated-line {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(253, 250, 250), rgb(10, 10, 11),  rgb(253, 250, 250), rgb(10, 10, 11),white);
+    background-size: 200% 100%;
+    animation: moveGradient 1s infinite linear;
+    border: none;
+}
+
+@keyframes moveGradient {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.animated-line2 {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(253, 250, 250), rgb(10, 10, 11),  rgb(253, 250, 250), rgb(10, 10, 11),white);
+    background-size: 200% 100%;
+    animation: moveGradient2 1s infinite linear;
+    border: none;
+}
+
+@keyframes moveGradient2 {
+    100% { background-position: 0% 50%; }
+    0% { background-position: 100% 50%; }
+}
+
+.dotted-line {
+    border: none;
+    border-top: 3px dotted #f6f1f1;
+    width: 100%;
+}
